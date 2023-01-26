@@ -1,0 +1,124 @@
+.order form {
+  max-width: 80%;
+  box-shadow: var(--box-shadow);
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+.order form .input-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.order form .input-box .input {
+  width: 45%;
+}
+.order {
+  background-image: url(../images/photo-1508615070457-7baeba4003ab.avif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.order h3 {
+  text-align: center;
+  padding-top: 30px;
+  color: #fff;
+  font-size: 35px;
+  font-weight: bold;
+}
+.order h1 {
+  text-align: center;
+
+  color: #fff;
+  font-size: 35px;
+  font-weight: bold;
+}
+.order form .input-box .input span {
+  display: block;
+  padding: 8px 0;
+  font-size: 20px;
+  color: #666;
+  text-transform: capitalize;
+  text-align: right;
+}
+.order form .input-box .input input,
+.order form .input-box .input textarea {
+  padding: 12px;
+  width: 100%;
+  color: #192a56;
+  border-radius: 6px;
+  background-color: #eee;
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+.order form .input-box .input input::placeholder,
+.order form .input-box .input textarea::placeholder {
+  font-size: 14px;
+}
+.order form .input-box .input input:focus {
+  border: 1px solid #27ae60;
+}
+.order form .input-box .input textarea:focus {
+  border: 1px solid #27ae60;
+}
+
+.order form .input-box .input textarea {
+  height: 200px;
+  resize: none;
+}
+.order form .btn {
+  margin-top: 15px;
+  padding: 15px 40px;
+  background-color: #777;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+
+@media (max-width: 991px) {
+  .order form .input-box .input {
+    width: 100%;
+  }
+}
+.email {
+  padding: 40px 50px;
+  background-color: transparent;
+}
+.email h2 {
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+  margin: 30px 0 20px 0;
+}
+.social {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.social a {
+  text-decoration: none !important;
+  color: rgb(17, 82, 102) !important;
+  font-size: 20px;
+  font-weight: bold;
+}
+.social i {
+  font-size: 40px;
+  color: #fff;
+  border-radius: 20px;
+}
+.social p {
+  color: rgb(17, 82, 102) !important;
+  font-size: 20px;
+  font-weight: bold;
+}
